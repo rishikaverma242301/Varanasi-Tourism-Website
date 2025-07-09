@@ -1,0 +1,32 @@
+/* Neon glowing text effect */
+.neon-text {
+  color: #ffa500;
+  text-shadow:
+    0 0 5px #ffa500,
+    0 0 10px #ffa500,
+    0 0 20px #ff8c00,
+    0 0 40px #ff8c00;
+}
+
+/* Optional: animated neon pulse effect */
+@keyframes neonPulse {
+  0%, 100% {
+    text-shadow:
+      0 0 5px #ffa500,
+      0 0 10px #ffa500,
+      0 0 20px #ff8c00,
+      0 0 40px #ff8c00;
+  }
+  50% {
+    text-shadow:
+      0 0 2px #ff6600,
+      0 0 6px #ff6600,
+      0 0 12px #ff6600,
+      0 0 24px #ff6600;
+  }
+}
+
+/* Apply this class to animate */
+.neon-animate {
+  animation: neonPulse 2s ease-in-out infinite;
+}

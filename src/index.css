@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Tagesschrift&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --font-roboto:"Roboto Slab",serif;
+    
+ }
+ body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
