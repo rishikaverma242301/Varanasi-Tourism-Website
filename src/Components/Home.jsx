@@ -95,7 +95,7 @@ const Home = () => {
 </div>
 
 <div
-  className="grid sm:grid-cols-3 grid-cols-1 gap-8 justify-items-center my-[100px] overflow-hidden px-4"
+  className="flex gap-8 justify-items-center my-[100px] overflow-hidden px-4"
   data-aos="fade-left"
 >
   {["15.jpg", "16.jpg", "three.jpg"].map((img, idx) => (
