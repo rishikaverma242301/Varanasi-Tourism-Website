@@ -517,7 +517,7 @@ const Home = () => {
   <h4 className="font-bold text-sm mb-3">QUICK LINKS</h4>
   <ul className="space-y-2 text-gray-300 text-sm">
     <li><Link to="/" className="hover:text-white">Home</Link></li>
-    <li><Link to="/journeytokashi" className="hover:text-white">Journey To Kashi</Link></li>
+    <li><Link to="/journey" className="hover:text-white">Journey To Kashi</Link></li>
     <li><Link to="/culture" className="hover:text-white">Culture</Link></li>
     <li><Link to="/Excursions" className="hover:text-white">Excursions</Link></li>
     <li><Link to="/stay" className="hover:text-white">Stay</Link></li>
