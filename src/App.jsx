@@ -3,25 +3,16 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './Components/Navbar';
 import Slider from './Components/Slider';
-import Excursion from './Components/Excursions';
+import Home from './Components/Home.jsx';
+import JourneyToKashi from './Components/JourneyToKashi.jsx'
 
-
-const Home = () => {
-  return (
-    <div>
-      <Navbar />
-      <Slider />
-      {/* Include your View All Button here if needed */}
-    </div>
-  );
-};
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/excursions" element={<ExcursionPage />} />
+        <Route path="/journey" element={<JourneyToKashi />} />
       </Routes>
     </Router>
   );
