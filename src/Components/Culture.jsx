@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Navbar from "./Navbar";
 import AOS from "aos";
 import AudioPlayer from "./Audioplayer";
 import "aos/dist/aos.css";
@@ -13,7 +12,6 @@ const VaranasiTourism = () => {
 
   return (
     <div className="overflow-hidden">
-      <Navbar />
     
       <img
         src="/Images/9.webp"
@@ -517,9 +515,6 @@ const VaranasiTourism = () => {
 <section className="py-12 px-6 bg-gray-50 text-gray-800" id="aarti-sounds" data-aos="fade-up">
   <AudioPlayer />
 </section>
-   <div className="border-t border-gray-700 pt-10 mb-8 font-semibold text-center text-xs text-black">
-        Copyright © 2025 XYZ. All Rights Reserved.
-      </div>
    
 
     </div>

@@ -29,6 +29,7 @@
     "react-router-dom": "^7.6.3",
     "react-tsparticles": "^2.12.2",
     "swiper": "^11.2.8",
+    "tailwind-scrollbar": "^4.0.2",
     "tailwindcss": "^4.1.2",
     "three": "^0.178.0"
   },

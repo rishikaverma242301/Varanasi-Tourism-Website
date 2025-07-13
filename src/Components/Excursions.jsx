@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./Navbar";
 import AOS from "aos";
 import { motion } from "framer-motion";
 import "aos/dist/aos.css";
@@ -137,7 +136,7 @@ const ExcursionPage = () => {
 
   return (
     <div>
-      <Navbar />
+  
       <div id="excursions" className="min-h-screen bg-gradient-to-b from-orange-50 via-purple-50 to-white px-4 md:px-16 py-14 text-gray-800 font-sans">
         <motion.h1
           initial={{ opacity: 0, y: -40 }}

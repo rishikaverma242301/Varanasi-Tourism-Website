@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaMapMarkerAlt, FaClock } from "react-icons/fa";
-import Navbar from "./Navbar";
 import MysticPlaces from "./MysticPlaces";
 
 const JourneyToVaranasi = () => {
@@ -40,7 +39,7 @@ const JourneyToVaranasi = () => {
   return (
     
     <div className="text-black bg-pink-100 font-roboto ">
-      <Navbar/>
+      
       <div className="bg-[url('/Images/mine.jpeg')] h-[60vh] bg-no-repeat bg-cover bg-bottom relative font-roboto">
         <div className="bg-black/30 backdrop-blur-none absolute inset-0"></div>
       </div>
@@ -486,10 +485,6 @@ const JourneyToVaranasi = () => {
         </div>
       </section>
 
-      {/* Google Maps Embed */}
-      <div className="mt-10  border-t border-gray-700 pt-4 text-center text-xs text-black">
-        Copyright © 2025 RS. All Rights Reserved.
-      </div>
       
 
      </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import { BedDouble, Utensils, MapPin, Phone } from "lucide-react";
 import { motion } from "framer-motion";
 import { FaInstagram, FaFacebookF, FaYoutube } from "react-icons/fa";
-import Navbar from './Navbar';
 
 
 // ✅ Swiper Imports (MUST be added)
@@ -16,7 +15,7 @@ export default function VaranasiStay() {
   return (
 
   <div className="text-black bg-orange-100 font-roboto">
-      <Navbar/>
+    
       <div className="bg-[url('/Images/maxres.jpg')] h-[60vh]  bg-cover relative">
         <div className="bg-black/30 backdrop-blur-none absolute inset-0"></div>
       </div>
@@ -366,7 +365,7 @@ export default function VaranasiStay() {
           <a href="#"><FaFacebookF /></a>
           <a href="#"><FaYoutube /></a>
         </div>
-        <p className="text-sm mt-6 text-[#e5e7eb]">© 2025 Varanasi Stay. All rights reserved.</p>
+      
       </footer>
     </div>
 

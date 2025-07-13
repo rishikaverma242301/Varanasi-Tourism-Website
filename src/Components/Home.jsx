@@ -1,12 +1,10 @@
 import React,{useEffect} from 'react';
-import Navbar from './Navbar';
 import MySlider from './Slider';
-import { Facebook, Instagram, Mail, MapPin, Phone } from 'lucide-react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import AudioPlayer from './Audioplayer';
 import FoodSection from './FoodSection';
-import { Link } from 'react-router-dom'
+
 
 
 const Home = () => {
@@ -16,7 +14,7 @@ const Home = () => {
   
   return (
     <div className='font-roboto'>
-      <Navbar />
+    
       <MySlider />
 
       {/* hello part*/}
@@ -484,82 +482,9 @@ const Home = () => {
  {/* second all div tag */}
    </div>
 
+
+
    {/* footer */}
-    <footer className="bg-gray-900 text-white px-6 py-10 md:px-20 ">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Company Info */}
-        <div>
-          <h3 className="text-purple-400 font-bold text-lg">Mysterious Place of<br />Varanasi</h3>
-          <p className="text-sm text-gray-400 mt-3">
-            Made using clean, non-toxic ingredients,<br />
-            our products are signed for everyone.<br />
-            Made using clean, non-toxic
-          </p>
-          <ul className="mt-4 space-y-2 text-sm">
-            <li className="flex items-center gap-2 text-gray-300">
-              <MapPin size={16} /> Address: No 40 Baria, US
-            </li>
-            <li className="flex items-center gap-2 text-gray-300">
-              <Mail size={16} /> Email: XYZ@gmail.com
-            </li>
-            <li className="flex items-center gap-2 text-gray-300">
-              <Phone size={16} /> Phone: (+123) 938 9832
-            </li>
-          </ul>
-          <div className="flex gap-4 mt-4">
-            <span className="flex items-center gap-1 text-sm"><Facebook size={16} /> FACEBOOK</span>
-            <span className="flex items-center gap-1 text-sm"><Instagram size={16} /> INSTAGRAM</span>
-          </div>
-        </div>
-
-        {/* Quick Links */}
-       <div>
-  <h4 className="font-bold text-sm mb-3">QUICK LINKS</h4>
-  <ul className="space-y-2 text-gray-300 text-sm">
-    <li><Link to="/" className="hover:text-white">Home</Link></li>
-    <li><Link to="/journey" className="hover:text-white">Journey To Kashi</Link></li>
-    <li><Link to="/culture" className="hover:text-white">Culture</Link></li>
-    <li><Link to="/Excursions" className="hover:text-white">Excursions</Link></li>
-    <li><Link to="/stay" className="hover:text-white">Stay</Link></li>
-    <li><Link to="/contact" className="hover:text-white">Contact</Link></li>
-  </ul>
-</div>
-        {/* Categories */}
-        <div>
-          <h4 className="font-bold text-sm mb-3">CATEGORIES</h4>
-          <ul className="space-y-2 text-gray-300 text-sm">
-            <li>Cosmatic</li>
-            <li>Services</li>
-            <li>Payment info</li>
-            <li>Size Chart</li>
-            <li>Women Product</li>
-            <li>Billing</li>
-          </ul>
-        </div>
-
-        {/* Subscribe */}
-        <div>
-          <h4 className="font-bold text-sm mb-3">SUBCRIBE</h4>
-          <p className="text-sm text-gray-400 mb-4">You can be always date with our company news</p>
-          <div className="flex items-center bg-gray-800 rounded-full overflow-hidden">
-            <input
-              type="email"
-              placeholder="Your email"
-              className="bg-transparent px-4 py-2 text-sm outline-none w-full text-white"
-            />
-            <button className="bg-gradient-to-r from-purple-500 to-pink-500 px-4 py-2 text-sm text-white font-medium">
-              Submit
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div className="mt-10 border-t border-gray-700 pt-4 text-center text-xs text-gray-400">
-        Copyright © 2025 XYZ. All Rights Reserved.
-      </div>
-    </footer>
-  
-
        {/* all div */}
        
     

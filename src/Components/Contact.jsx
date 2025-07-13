@@ -1,12 +1,10 @@
 import React from 'react';
-import { Mail, Phone, MapPin, PhoneCall, Facebook, Instagram, Linkedin, X as Twitter } from 'lucide-react';
-import Navbar from './Navbar'; // Ensure path is correct
+import { Mail, Phone, MapPin, PhoneCall, Facebook, Instagram} from 'lucide-react';
 
 const ContactUsPage = () => {
   return (
     <div className="bg-amber-50 text-orange-500 font-roboto">
-      {/* Navbar */}
-      <Navbar />
+      
 <img src="/Images/10.jpg" alt="" className='w-full h-[60vh] object-cover'/>
       {/* Contact Section */}
       <section className="py-16 px-6 md:px-20">
@@ -59,20 +57,10 @@ const ContactUsPage = () => {
       </section>
 
       {/* Footer Section */}
-      <footer className="bg-[#f5f8fb] text-gray-800 pt-12">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left">
+      <footer className="bg-[#f5f8fb] text-gray-800 pt-12 md:text-center">
+        <div className="max-w-7xl  px-6 grid grid-cols-2 md:grid-cols-3 gap-20 text-center md:text-center">
           {/* Our Services */}
-          <div>
-            <h3 className="text-lg font-semibold mb-3">Our Services</h3>
-            <ul className="space-y-2">
-              <li>Foods</li>
-              <li>Hotels</li>
-              <li>Car</li>
-              <li>Auto</li>
-              <li>Cabs</li>
-            </ul>
-          </div>
-
+          
           {/* Additional Services */}
           <div>
             <h3 className="text-lg font-semibold mb-3">Additional Services</h3>
@@ -164,36 +152,7 @@ const ContactUsPage = () => {
 
           {/* Footer Bottom Content */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 px-6 py-4 text-sm text-gray-600 max-w-7xl mx-auto">
-            {/* Left */}
-            <p>
-              Copyright © 2025. All Rights Reserved,{' '}
-              <a href="#" className="text-orange-500 hover:underline">
-                Varanasi Tourism Travels
-              </a>
-            </p>
-
-            {/* Social Icons */}
-            <div className="flex gap-4 text-white text-center">
-              <a href="#" className="bg-orange-500 p-2 rounded-full">
-                <Facebook size={18} />
-              </a>
-              <a href="#" className="bg-orange-500 p-2 rounded-full">
-                <Twitter size={18} />
-              </a>
-              <a href="#" className="bg-orange-500 p-2 rounded-full">
-                <Instagram size={18} />
-              </a>
-              <a href="#" className="bg-orange-500 p-2 rounded-full">
-                <Linkedin size={18} />
-              </a>
-            </div>
-
-            {/* Payment Methods */}
-            <div className="flex gap-3 items-center">
-              <img src="/Images/payments/visa.png" alt="Visa" className="h-8" />
-              <img src="/Images/payments/logo.png" alt="Mastercard" className="h-10" />
-              <img src="/Images/payments/paypal.png" alt="PayPal" className="h-10" />
-            </div>
+      
           </div>
         </div>
       </footer>
